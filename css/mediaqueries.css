@@ -1,0 +1,94 @@
+/* Extra small devices (portrait phones, less than 576px
+No media query for `xs` since this is the default in Bootstrap*/
+body{
+	font-size: 1.5rem;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	body{
+		font-size: 
+	}	
+	.unete{
+		height: 250px;
+		background-size: 160%;
+		background-position: center;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	body{
+		font-size: 1rem;
+	}
+	.unete{
+		height: 250px;
+		background-size: 160%;
+		background-position: center;
+	}
+
+	.youtube-post{
+		width: 500px;	
+	}
+
+	.facebook-post{
+		width: 400px;
+		height: 350px;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.card-img-top{
+		max-height: 300px;
+    	height: 300px;
+    	object-fit: cover;
+	}
+	.plat-img{
+		width: 100%;
+	}
+	.unete{
+		height: 350px;
+		background-size: 160%;
+		background-position: center;
+	}
+
+	.tipo p{			
+		display: inline-flex;
+		flex-direction: row;
+	}
+
+	.youtube-post{
+		width: 600px;	
+	}
+
+	.facebook-post{
+		width: 580px;
+		height: 350px;
+	}
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.plat img{
+		width: 100%;
+	}	
+	.unete{
+		height: 350px;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-color: black;
+	}
+	.youtube-post{
+		width: 700px;
+		height: 500px;	
+	}
+
+	.facebook-post{
+		width: 700px;
+		height: 500px;
+	}
+
+
+}

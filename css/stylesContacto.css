@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;    
+    background-color: white;
+}
+
+.container_flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.redes{
+	background-color: #dbb145;
+	justify-content: space-between;
+}
+
+.div-facturacion{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.btn-facturacion{
+	border: none;
+	font-size: 1rem !important;
+	color: #684f11 !important;
+	letter-spacing: 1px;
+    text-decoration: none !important;    
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+}
+
+.btn-facturacion:hover {
+	color: white !important;
+}
+
+.group-redes {
+    padding-top: 15px;
+    padding-bottom: 12px;    
+    margin-right: 10px;    
+    padding-left: 25px;
+}
+
+.redes{
+	border-style: none !important;
+}
+
+.tw{
+    height: 1.6rem;
+}
+
+.ig{
+    height: 1.6rem;
+}
+
+.yt{
+    height: 1.6rem;
+}
+
+.navbars{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: black;
+}
+.navBar{
+	position: sticky !important;
+	background-color: black !important;
+	height: 5.5rem;
+	box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .52);
+	background-size: 250px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.bfry{    
+	padding-left: 1rem;
+    vertical-align: middle;
+    width: 200px;   
+}
+
+.menu-desp{
+	padding: 0px !important;
+}
+
+.listado{
+	font-size: 1rem;
+}
+
+.cont-contacto{		
+	background-image: url("../img/fondo3.gif");
+	text-align: center; /*Left en small*/
+}
+
+.titulo-contacto{
+	padding: 2rem;
+}
+
+.tipo p{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	display: block;
+}
+
+.btn-trabajo, .btn-contacto{		
+	margin: 1rem;
+	width: 80%;
+	background-color: #dbb145;
+	border-color: #dbb145;
+}
+
+.btn-trabajo:focus, .btn-contacto:focus, .btn-trabajo:hover, .btn-contacto:hover, .btn-trabajo:visited, .btn-contacto:visited {
+	background-color: #dbb145 !important;
+	border-color: #dbb145 !important;
+}
+
+.unete{
+	background-image: url("../img/unete.png");
+	height: 250px;
+	width: 100%;
+	background-size: contain;	
+	background-repeat: no-repeat;
+	padding-left: 0;
+    padding-right: 0%;
+}
+
+.form-trabajo, .form-contacto{
+	color: white;
+	text-align: left;
+	font-size:
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+label{
+	opacity: 0.6;
+    color: #fff;
+    margin-bottom: 9px;
+    font-family: 'Geogtq md', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+}
+
+.form-check-label{
+	color: #dbb145;
+}
+
+.enviar{
+	width: 100%;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+    opacity: 0.6;
+    background-color: transparent;
+    font-size: 18px;
+    border: 1px solid #dbb145;
+    -webkit-transition: opacity 200ms ease, padding 200ms ease, all 400ms ease;
+    transition: opacity 200ms ease, padding 200ms ease, all 400ms ease;
+    color: #FFF;
+}
+
+.enviar:hover{
+	background-color: black;
+	border-color: white;
+}
+

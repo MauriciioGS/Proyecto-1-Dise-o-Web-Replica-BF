@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url('../img/fondo.gif');   
+}
+
+.container_flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.redes{
+	background-color: #dbb145;
+	justify-content: space-between;
+}
+
+.div-facturacion{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.btn-facturacion{
+	border: none;
+	font-size: 1rem !important;
+	color: #684f11 !important;
+	letter-spacing: 1px;
+    text-decoration: none !important;    
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+}
+
+.btn-facturacion:hover {
+	color: white !important;
+}
+
+.group-redes {
+    padding-top: 15px;
+    padding-bottom: 12px;    
+    margin-right: 10px;    
+    padding-left: 25px;
+}
+
+.redes{
+	border-style: none !important;
+}
+
+.tw{
+    height: 1.6rem;
+}
+
+.ig{
+    height: 1.6rem;
+}
+
+.yt{
+    height: 1.6rem;
+}
+
+.navbars{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: black;
+}
+.navBar{
+	position: sticky !important;
+	background-color: black !important;
+	height: 5.5rem;
+	box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .52);
+	background-size: 250px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.bfry{    
+	padding-left: 1rem;
+    vertical-align: middle;
+    width: 200px;   
+}
+
+.menu-desp{
+	padding: 0px !important;
+}
+
+.listado{
+	font-size: 1rem;
+}
+
+.cartas{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1rem;
+}
+
+.card{
+	border-style: none !important;
+	margin: .5rem;
+}
+/* Media query de carrousel*/
+.card-body{
+	padding-top: 0rem;    
+    display: inline-block;      
+    font-family: 'Geogtq rg', sans-serif;  
+}
+
+.card-title{
+	padding-top: 2rem;
+    padding-left: 1.5rem;
+    font-size: 14px;
+    color: silver;
+}
+
+.card-text{
+    padding-right: 15px;
+    color: gray;
+    font-size: 14px;
+    float: left;    
+    line-height: 20px;
+}
+
+.ver-mas{	
+	float: right;
+	color: black;
+	background-color: #dbb145;
+	border-style: none;
+	font-size: 1.2rem;
+}
+
+.ver-mas:hover{
+	color: black !important;
+	background-color: silver !important;
+}
+
+.sucursales h1{	
+	margin-top: 3rem;
+	text-align: center;
+	display: block;
+	color: white;
+	width: 470px;
+	font-size: 1.8rem;
+	line-height: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sucursales button:focus, .sucursales button:hover, .sucursales button:visited {
+	color: #dbb145;
+	background-color: none !important;
+	border-color: none !important;
+	border-style: none !important;
+	text-decoration: none !important;
+}
+
+.cd-accor{
+	color: silver;
+	text-align: center;
+	background-image: url("../img/fondo2.gif");
+}
+
+.cd-accor button{
+	color: #dbb145;
+}
+
+.infosuc{
+	font-size: 1rem;
+}
+
+footer{
+	background-color: black;
+	padding-bottom: 40px;
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+.cont-footer, .cont-img-aviso{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sitio{
+	margin-top: 1.8rem;
+}
+
+.titulos-f{
+	margin-bottom: 1.2rem;
+	padding-bottom: .6rem;
+	color: #dbb145;
+	font-size: 1.2rem;
+	opacity: 0.9;
+}
+
+.link-f{
+	display: inline-block;
+	color: silver;
+	font-size: .9rem;
+	letter-spacing: 0.5px;
+	width: 100%;
+}
+
+.secciones {
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.redes-f{
+	margin-top: 1.8rem;
+}
+
+.cont-aviso{
+	margin-top: 1.8rem;
+}
+
+.redes{
+	background-color: #dbb145;
+	justify-content: space-between;
+}
